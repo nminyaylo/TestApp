@@ -3,7 +3,9 @@ exports.config = {
   output: './output',
   helpers: {
     Puppeteer: {
-      url: 'https://www.tinkoff.ru'
+      url: 'http://localhost',
+      show: false,
+      waitForAction: 1000
     }
   },
   include: {
